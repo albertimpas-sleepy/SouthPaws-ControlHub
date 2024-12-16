@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* table.css */
+.custom-table th {
+    cursor: pointer;
+}
+
+.custom-table th:hover {
+    background-color: #f2f2f2;
+}
+
+

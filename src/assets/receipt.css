@@ -1,0 +1,43 @@
+.receipt {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #fff;
+  }
+  
+  .receipt-header,
+  .receipt-footer {
+    margin-bottom: 20px;
+  }
+  
+  .receipt-header p,
+  .receipt-footer p {
+    margin: 0;
+  }
+  
+  .receipt-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-body table th,
+  .receipt-body table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .receipt-body table th {
+    background: #f9f9f9;
+  }
+  
+  @media print {
+    .receipt {
+      border: none;
+      margin: 0;
+      max-width: 100%;
+    }
+  }
+  
